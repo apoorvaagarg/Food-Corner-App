@@ -1,0 +1,43 @@
+h1.h1.text-center {
+    text-align: center;
+}
+.table-responsive {
+    text-align: center;
+    margin-top: 35px;
+}
+th.text-center {
+    padding-left: 215px;
+    padding-right: 215px;
+    font-size: 21px;
+    color: red;
+    font-weight: 700;
+}
+td.value-style {
+    font-size: 18px;
+    padding-top: 14px;
+}
+p.th-mssg1 {
+    margin-top: 125px;
+    font-size: 20px;
+    color: #990d0d;
+    font-weight: 700;
+}
+p.th-mssg2, p.th-mssg3 {
+    font-size: 20px;
+    color: #990d0d;
+    font-weight: 700;
+}
+.back-bttn {
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 11px;
+    background: red;
+    color: white;
+    font-weight: 700;
+    border: white;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.navigate-bttn {
+    text-align: center;
+}

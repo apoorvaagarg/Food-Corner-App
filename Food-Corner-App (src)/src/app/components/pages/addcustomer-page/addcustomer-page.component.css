@@ -1,0 +1,42 @@
+.address-details-label {
+    font-size: 28px;
+    color: red;
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+h1.h1.text-center {
+    text-align: center;
+}
+.text-field-style {
+    border-radius: 30px;
+    font-size: 22px;
+    padding: 10px;
+    width: 400px;
+}
+.form-group{
+    margin-top: 35px;
+    text-align: center;
+}
+.address-bttn {
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 11px;
+    background: red;
+    color: white;
+    font-weight: 700;
+    border: white;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.container {
+    height: 50px;
+    position: relative;
+}
+.vertical-center {
+    margin: 0;
+    text-align: center;
+}
+.adrress-field {
+    margin-right: 19px !important;
+}

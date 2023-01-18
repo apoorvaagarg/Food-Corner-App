@@ -1,0 +1,33 @@
+<div class="container">
+    <!-- <h1>{{num}}</h1> -->
+    <div class="row d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 ">
+        <h1 class="h1 text-center">Thank You</h1>
+    </div>
+    <br>
+
+    <div class="table-responsive">
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th class="text-center" scope="col">Name</th>
+                    <th class="text-center" scope="col">Phone</th>
+                    <th class="text-center" scope="col">Address</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr *ngFor="let customer of Customer; let i = index">
+                    <td class="value-style">{{customer.customer_name}}</td>
+                    <td class="value-style">{{customer.customer_phone}}</td>
+                    <td class="value-style">{{customer.customer_address}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="th-mssg1">Thank you for choosing us.</p>
+        <p class="th-mssg2">Your order will be delivered to the specified address within 30 minutes.</p>
+        <p class="th-mssg3">Have a happy day with a happy meal.</p>
+    </div>
+  <div class="navigate-bttn">
+    <button (click)="deleteAll()" class="back-bttn">Home</button>
+  </div>
+</div>
